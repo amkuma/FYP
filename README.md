@@ -28,15 +28,16 @@ streamlit run Home.py
 This command starts the Streamlit server and launches the frontend interface, which communicates with the Flask backend.
 
 ## Project Structure
---Home.py - The main entry point for the Streamlit frontend interface.
---app.py - Initializes the Flask server and includes the main application logic.
---RNNModel.h5 - The pre-trained Bi-LSTM model used for making predictions.
---prediction.py - Contains functions to perform predictions using the model.
---test_app.py - Includes tests for the Flask application.
---test_prediction.py - Includes tests for the prediction logic.
---tokenizer.json - The tokenizer used for converting text inputs into a format suitable for model prediction.
---fyp2.py - The source file containing the model training.
---style.css, scripts.js - Frontend styling and scripts enhancing the user interface.
+- `Home.py` - The main entry point for the Streamlit frontend interface.
+- `app.py` - Initializes the Flask server and includes the main application logic.
+- `RNNModel.h5` - The pre-trained Bi-LSTM model used for making predictions.
+- `prediction.py` - Contains functions to perform predictions using the model.
+- `test_app.py` - Includes tests for the Flask application.
+- `test_prediction.py` - Includes tests for the prediction logic.
+- `tokenizer.json` - The tokenizer used for converting text inputs into a format suitable for model prediction.
+- `fyp2.py` - The source file containing the model training.
+- `style.css` - Frontend styling.
+- `scripts.js` - Scripts enhancing the user interface.
 
 
 ## Contact
