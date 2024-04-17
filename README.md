@@ -1,13 +1,15 @@
 # PolarPulse: Bipolar Disorder Detection Using NLP
 
 ## Overview
-PolarPulse harnesses advanced Natural Language Processing (NLP) techniques to detect potential signs of bipolar disorder from textual data. This project, designed as part of a BEng in Software Engineering thesis, utilizes a Bidirectional Long Short-Term Memory (Bi-LSTM) network architecture to process tweets that reflect various moods indicative of bipolar disorder diagnoses. By analyzing linguistic patterns and emotional cues, PolarPulse aims to contribute to early, accurate, and non-invasive diagnosis methodologies in mental health.
+PolarPulse is a final year project that leverages advanced Natural Language Processing (NLP) techniques to detect potential signs of bipolar disorder from textual data. Developed as part of a BEng in Software Engineering thesis, it employs a Bidirectional Long Short-Term Memory (Bi-LSTM) network architecture to analyze tweets that reflect various moods indicative of bipolar disorder diagnoses. Through the identification of linguistic patterns and emotional cues, PolarPulse strives to advance the field of mental health by contributing to early, accurate, and non-invasive diagnostic methodologies.
+
 
 ## Installation
 
 ### Prerequisites
-- Python 3.8+
+- Python 3.9 - 3.11
 - pip
+
 
 ## Usage
 
@@ -26,6 +28,7 @@ In a separate terminal, run:
 streamlit run Home.py
 ```
 This command starts the Streamlit server and launches the frontend interface, which communicates with the Flask backend.
+
 
 ## Project Structure
 - `Home.py` - The main entry point for the Streamlit frontend interface.
