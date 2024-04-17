@@ -1,0 +1,41 @@
+/* style.css file */
+/* General styles */
+body, .stTextInput input, .stTextArea textarea, .stButton>button, .prediction-output {
+    color: #333333; /* Dark gray text color for contrast */
+    background-color: #EEEEEE; /* Light gray background for both themes */
+}
+
+/* Button styles */
+.stButton>button {
+    border-radius: 20px;
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #00BFFF; /* Blue background for buttons */
+    color: white; /* White text for buttons */
+}
+
+.stButton>button:hover {
+    background-color: #FFFFFF; /* White background on hover */
+    color: #00BFFF; /* Blue text on hover */
+    border: 2px solid #00BFFF; /* Blue border on hover */
+}
+
+/* Input and textarea styles */
+.stTextInput input, .stTextArea textarea {
+    border-radius: 20px;
+    border: 1px solid #CCCCCC; /* Lighter gray border for inputs */
+}
+
+/* Prediction output styles */
+.prediction-output {
+    border: 1px solid #CCCCCC; /* Lighter gray border for the prediction output */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
